@@ -1,0 +1,64 @@
+.bg-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+.top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.search-header {
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 45px;
+}
+@media screen and (max-width: 576px) {
+  .search-header {
+    font-size: 30px;
+  }
+}
+.input-card-container {
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and(max-width: 576px) {
+  .input-card-container {
+    width: 60%;
+  }
+}
+.input-container {
+  height: 40px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 9px;
+}
+@media screen and(max-width: 576px) {
+}
+.search-bar {
+  height: 30px;
+  width: 180px;
+  border: 0px;
+  background-color: #f1f5f9;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.item-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+@media screen and (max-width: 576px) {
+  .item-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
